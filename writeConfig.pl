@@ -12,7 +12,7 @@ foreach $part (@parts) {
         }
 }
 
-open(w,">config.pl");
+open(w,">/opt/folio/config.pl");
 print w qq[
 \$url = "$url";
 \$headers = "-H '$j' -H '$x'";
